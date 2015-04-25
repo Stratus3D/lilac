@@ -25,6 +25,6 @@ defmodule Lilac.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    [{:teal, git: "https://github.com/Stratus3D/teal.git", tag: "v0.1.0"}]
+    [{:teal, git: "https://github.com/Stratus3D/teal.git", tag: "v0.1.1"}]
   end
 end
