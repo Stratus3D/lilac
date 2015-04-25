@@ -11,7 +11,7 @@ The name was inspired by the color assigned to Elixir in the GitHub web interfac
 To use Lilac assertions in your own tests simply add Lilac as a test dependency in `mix.exs`:
 
     defp deps do
-      [{:lilac, github: "Stratus3D/lilac", only: [:dev, :test]}]
+      [{:lilac, git: "https://github.com/Stratus3D/lilac.git", only: [:dev, :test]}]
     end
 
 ##Usage
