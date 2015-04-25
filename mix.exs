@@ -4,7 +4,7 @@ defmodule Lilac.Mixfile do
   def project do
     [app: :lilac,
      version: "0.0.1",
-     elixir: "~> 0.15.2-dev",
+     elixir: "~> 1.0.0",
      deps: deps]
   end
 
