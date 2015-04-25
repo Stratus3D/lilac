@@ -1,1 +1,2 @@
-%{"teal": {:git, "https://github.com/Stratus3D/teal.git", "e557dc0dc8a95d88b92f97e5a26469e868da63be", [tag: "v0.1.1"]}}
+%{"ex_doc": {:hex, :ex_doc, "0.7.2"},
+  "teal": {:git, "https://github.com/Stratus3D/teal.git", "e557dc0dc8a95d88b92f97e5a26469e868da63be", [tag: "v0.1.1"]}}
