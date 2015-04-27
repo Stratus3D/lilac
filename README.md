@@ -17,7 +17,7 @@ To use Lilac assertions in your own tests simply add Lilac as a test dependency 
 ##Usage
 
 ## Known Issues
-No known issues. If you see something that could be improved feel free to open an issue on GitHub ([https://github.com/Stratus3D/teal/issues](https://github.com/Stratus3D/teal/issues))
+No known issues. If you see something that could be improved feel free to open an issue on GitHub ([https://github.com/Stratus3D/lilac/issues](https://github.com/Stratus3D/lilac/issues))
 
 ## Contributing
-Feel free to create an issue or pull request if you see something that could be improved.
+Feel free to create an issue or pull request if you find a bug or if you have additional assertions that you would like to be included in this library.
