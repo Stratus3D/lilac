@@ -4,7 +4,7 @@ defmodule Lilac.Mixfile do
   def project do
     [app: :lilac,
      version: "0.0.1",
-     elixir: "~> 1.0.0",
+     elixir: "~> 1.0.5",
      source_url: "https://github.com/Stratus3D/lilac",
      homepage_url: "https://github.com/Stratus3D/lilac",
      deps: deps]
