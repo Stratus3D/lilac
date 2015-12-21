@@ -1,4 +1,4 @@
-defmodule Lilac.Behaviours do
+defmodule Lilac.Behaviour do
   import Lilac
 
   delegate_assertions [
