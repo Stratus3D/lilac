@@ -7,6 +7,8 @@ defmodule Lilac.Mixfile do
      elixir: "~> 1.0.5",
      source_url: "https://github.com/Stratus3D/lilac",
      homepage_url: "https://github.com/Stratus3D/lilac",
+     description: description,
+     package: package,
      deps: deps]
   end
 
@@ -30,6 +32,21 @@ defmodule Lilac.Mixfile do
     [
       {:teal, git: "https://github.com/Stratus3D/teal.git", tag: "v0.1.1"},
       {:ex_doc, "~> 0.7", only: :dev}
+    ]
+  end
+
+  defp description do
+    """
+    An Elixir library that provides matchers and assertions. Uses the Erlang library teal.
+    """
+  end
+
+  defp package do
+    [
+      files: [],
+      maintainers: ["Trevor Brown"],
+      licenses: ["MIT"],
+      links: %{}
     ]
   end
 end
