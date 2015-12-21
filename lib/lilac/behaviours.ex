@@ -1,8 +1,9 @@
 defmodule Lilac.Behaviours do
-  # Delegate everything to :teal_behaviours module
-  defdelegate [has_callback(module, name, arity),
-    assert_has_callback(module, name, arity), assert_has_callback(module, name, arity, msg),
-    is_behaviour(module), assert_is_behaviour(module), assert_is_behaviour(module, msg),
-    implements_behaviour(module, behaviour), assert_implements_behaviour(module, behavior),
-    assert_implements_behaviour(module, behaviour, msg)], to: :teal_behaviours
+  import Lilac
+
+  delegate_assertions [
+    {has_callback(module, name, arity), :no_callback},
+    {is_behaviour(module), :not_behaviour},
+    {implements_behaviour(module, behaviour), :behaviour_not_implemented},
+    ], to: :teal_behaviours
 end
