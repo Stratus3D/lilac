@@ -46,7 +46,9 @@ defmodule Lilac.Mixfile do
       files: [],
       maintainers: ["Trevor Brown"],
       licenses: ["MIT"],
-      links: %{}
+      links: %{
+        "GitHub": "https://github.com/Stratus3D/lilac"
+      }
     ]
   end
 end
