@@ -5,10 +5,16 @@ Stratus3D
 
 An Elixir assertion library that utilizes the [Erlang library teal](https://github.com/Stratus3D/teal).
 
-The name was inspired by the color assigned to Elixir in the GitHub web interface. The color appears to be very close to <a href="http://en.wikipedia.org/wiki/Lilac_(color)#French_lilac">French Lilac</a>
+The name was inspired by the color assigned to Elixir in the GitHub web interface. The color appears to be very close to <a href="http://en.wikipedia.org/wiki/Lilac_(color)#French_lilac">French Lilac</a>.
 
 ##Installation
 To use Lilac assertions in your own tests simply add Lilac as a test dependency in `mix.exs`:
+
+    defp deps do
+      [{:lilac, "~> 0.0.1"}]
+    end
+
+Or using the GitHub repo:
 
     defp deps do
       [{:lilac, git: "https://github.com/Stratus3D/lilac.git", only: [:dev, :test]}]
